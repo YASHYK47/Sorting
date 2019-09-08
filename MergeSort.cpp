@@ -61,3 +61,5 @@ void merge(int a[],int i1,int j1,int i2,int j2)
 	for(i=i1,j=0;i<=j2;i++,j++)
 		a[i]=temp[j];
 }
+
+//Complexity is: O(nlogn)
