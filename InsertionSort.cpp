@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
+
 int main()
 {
 	int i,hole,A[100],value=0,n;
@@ -19,7 +20,7 @@ int main()
 		}
 		A[hole]=value;
 	}
-	printf("\nSorted Array is:\n");
+	printf("\nSorted Array is :\n");
 	for(i=0;i<n;i++)
 	printf("%d\n",A[i]);
 	
